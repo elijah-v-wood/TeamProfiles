@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+}
+
+.header h1 {
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+
+.header h3 {
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+#profile {
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+#profile img {
+    width: 400px;
+    height: auto;
+}
+
+a {
+    margin: 10px;
+}
